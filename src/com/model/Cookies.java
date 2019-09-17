@@ -20,6 +20,7 @@ public static void main(String[] args) {
 	int count=cookie.size();
 	for(Cookie cook:cookie)
 	{
+		System.out.println("-----GitHub------");
 	System.out.println("The name of cookie :"+cook.getName());
 	System.out.println("The Domain of cookie :"+cook.getDomain());
 	System.out.println("The Path of cookie :"+cook.getPath());
