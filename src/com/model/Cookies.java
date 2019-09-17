@@ -30,6 +30,7 @@ public static void main(String[] args) {
 	System.out.println("check cookie is secure :"+cook.isSecure());
 	System.out.println("check cookie is httponly :"+cook.isHttpOnly());
 		System.out.println("-----Eclipse------");
+		System.out.println("-----Eclipse 2nd change------");
 	}
 	driver.manage().deleteCookieNamed("S");
 	Cookie cookie1=new Cookie("username","password");
