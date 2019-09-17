@@ -29,6 +29,7 @@ public static void main(String[] args) {
 	System.out.println("The class of cookie :"+cook.getClass());
 	System.out.println("check cookie is secure :"+cook.isSecure());
 	System.out.println("check cookie is httponly :"+cook.isHttpOnly());
+		System.out.println("-----Eclipse------");
 	}
 	driver.manage().deleteCookieNamed("S");
 	Cookie cookie1=new Cookie("username","password");
